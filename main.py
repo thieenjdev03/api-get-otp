@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 # 👉 Secret key OTP (có thể thay bằng biến môi trường nếu cần)
-SECRET_KEY = "6GKDR2KLAQNACUOL7UVHHXFMT36YYLZ2"
+SECRET_KEY = "PWIDU3KEQUCV56JUMIBZ7L24R2CW6LEB"
 
 @app.get("/otp")
 def get_otp():
